@@ -32,22 +32,22 @@ $this->title = Yii::t('app', 'Brain Calibrator');
                 <label for="exampleInputAmount"><?=Yii::t('app', '90%')?></label>
                 <div class="input-group">
                     <div class="input-group-addon"><?=Yii::t('app', 'From')?></div>
-                    <?=$form->field($answer, 'ninetyStart')->textInput(['pattern' => '[0-9 ]+', 'class' => 'form-control commas-input', 'autocomplete' => 'off'])?>
+                    <?=$form->field($answer, 'ninetyStart')->textInput(['pattern' => '[0-9 ]+', 'class' => 'form-control commas-input', 'autocomplete' => 'off', 'type' => 'number'])?>
                 </div>
                 <div class="input-group">
                     <div class="input-group-addon"><?=Yii::t('app', 'To')?></div>
-                    <?=$form->field($answer, 'ninetyEnd')->textInput(['pattern' => '[0-9 ]+', 'class' => 'form-control commas-input', 'autocomplete' => 'off'])?>
+                    <?=$form->field($answer, 'ninetyEnd')->textInput(['pattern' => '[0-9 ]+', 'class' => 'form-control commas-input', 'autocomplete' => 'off', 'type' => 'number'])?>
                 </div>
             </div>
             <div class="form-group">
                 <label for="exampleInputAmount"><?=Yii::t('app', '50%')?></label>
                 <div class="input-group">
                     <div class="input-group-addon"><?=Yii::t('app', 'From')?></div>
-                    <?=$form->field($answer, 'fiftyStart')->textInput(['pattern' => '[0-9 ]+', 'class' => 'form-control commas-input', 'autocomplete' => 'off'])?>
+                    <?=$form->field($answer, 'fiftyStart')->textInput(['pattern' => '[0-9 ]+', 'class' => 'form-control commas-input', 'autocomplete' => 'off', 'type' => 'number'])?>
                 </div>
                 <div class="input-group">
                     <div class="input-group-addon"><?=Yii::t('app', 'To')?></div>
-                    <?=$form->field($answer, 'fiftyEnd')->textInput(['pattern' => '[0-9 ]+', 'class' => 'form-control commas-input', 'autocomplete' => 'off'])?>
+                    <?=$form->field($answer, 'fiftyEnd')->textInput(['pattern' => '[0-9 ]+', 'class' => 'form-control commas-input', 'autocomplete' => 'off', 'type' => 'number'])?>
                 </div>
             </div>
             <div class="form-group" style="margin: 3em 0; display: block">
